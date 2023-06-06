@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7a27704.css",
+    "main.js": "/static/js/main.2437d52d.js",
+    "static/media/background.png": "/static/media/background.3a33a0159ddb1ee6211b.png",
+    "static/media/planet-icon-10.png": "/static/media/planet-icon-10.96d15e07ad0176460fac.png",
+    "static/media/starwarslogo.png": "/static/media/starwarslogo.1ca50af96dd5486c9a72.png",
+    "index.html": "/index.html",
+    "main.d7a27704.css.map": "/static/css/main.d7a27704.css.map",
+    "main.2437d52d.js.map": "/static/js/main.2437d52d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7a27704.css",
+    "static/js/main.2437d52d.js"
+  ]
+}
