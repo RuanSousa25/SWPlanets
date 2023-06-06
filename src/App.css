@@ -1,0 +1,14 @@
+body{
+    margin-top: 140px;
+    background: url("./background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 15px;
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+}

@@ -1,0 +1,48 @@
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card-planet{
+    cursor: pointer;
+    width: 240px;
+    padding: 8px;
+    margin: 20px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(34,0,80,1) 73%, rgba(255,255,255,0) 100%);
+    transition: 0.5s;
+}
+.card-planet-select{
+    cursor: pointer;
+    width: 240px;
+    padding: 8px;
+    margin: 20px;
+    height: 450px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(34,0,80,1) 73%,rgba(34,0,80,1) 100%);
+    transition: 0.5s;
+   
+}
+.image-planet{
+    width: 240px;
+    height: 160px;
+    background: url("../../planet-icon-10.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.planet-specs{
+    visibility: hidden;
+    position: relative;
+    left: -15px;
+    
+}
+.planet-specs li{
+ list-style-type: none;    
+}
+.icon{
+    font-size: 8px;
+}

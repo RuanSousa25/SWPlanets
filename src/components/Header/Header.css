@@ -1,0 +1,106 @@
+header{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 98.7%;
+    height: 3.8em;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0.5% 0px 0.5%;
+    border: 2px solid #dcdcdc;
+    z-index: 2;
+
+}
+button{
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: yellow;
+}
+.divlogo{
+    background-image: url("../../starwarslogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 332px;
+    margin: 0px 25px 0px 25px;
+}
+div nav{
+    position: fixed;
+    top: 2.5em;
+    left: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    background: rgb(56, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    z-index: 2;
+}
+.nav-link{
+    width: 25%;
+    text-align: center;
+    border: 2px solid #dcdcdc;
+    padding: 3px 10px 3px 10px;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link button{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: yellow;
+}
+.lightsaberborder{
+    transition: 0.1s;
+    height: 5px;
+    width:0%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-attachment:initial;
+}
+.nav-link button:hover ~.lightsaberborder{
+    width:100%;
+}
+.red{
+    background-image: linear-gradient(to top,
+    transparent,
+    red 25%,
+    white 50%,
+    red 75%,
+    transparent)
+}
+.green{
+    background-image: linear-gradient(to top,
+    transparent,
+    lawngreen 25%,
+    white 50%,
+    lawngreen 75%,
+    transparent)
+}
+.blue{
+    background-image: linear-gradient(to top,
+    transparent,
+    blue 25%,
+    white 50%,
+    blue 75%,
+    transparent)
+}
+.purple{
+    background-image: linear-gradient(to top,
+                    transparent,
+                    darkviolet 25%,
+                    white 50%,
+                    darkviolet 75%,
+                    transparent)
+}
